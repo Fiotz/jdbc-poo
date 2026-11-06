@@ -1,0 +1,60 @@
+# ==========================================
+# Arquivos compilados do Java
+# ==========================================
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+hs_err_pid*
+replay_pid*
+
+# ==========================================
+# Arquivos gerados pelo Maven
+# ==========================================
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# ==========================================
+# Configurações de IDEs (VS Code, IntelliJ, Eclipse)
+# ==========================================
+# VS Code (o Codespace usa, mas as suas preferências locais não devem ir pro git)
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# Eclipse
+.settings/
+.project
+.classpath
+.factorypath
+
+# ==========================================
+# Arquivos de Sistema Operacional
+# ==========================================
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ==========================================
+# Logs e variáveis de ambiente
+# ==========================================
+*.log
+.env
